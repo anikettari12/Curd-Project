@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curd Javascript</title>
+    <link rel="stylesheet" href="./cured.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFromSubmit()">
+                    <div>
+                        <label for="productCode">Product Code</label>
+                        <input type="text" name="productCode" id="productCode">
+                    </div>
+                    <div>
+                        <label for="product">Product Name</label>
+                        <input type="text" name="product" id="product">
+                    </div>
+                    <div>
+                        <label for="qty">Product Quantite</label>
+                        <input type="number" name="qty" id="qty">
+                    </div>
+                    <div>
+                        <label for="prePrice">Product Price</label>
+                        <input type="number" name="prePrice" id="prePrice">
+                    </div>
+
+                    <div class="form_action--button">
+                        <input type="submit" value="Submit" />
+                        <input type="reset" value="Reset" />
+                    </div>
+
+                   <td>
+                    <table class="list"  id="storeList">
+                        <thead>
+                            <tr>
+                                <th>Product code</th>
+                                <th>Product Name</th>
+                                <th>Qty</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                         <tbody>
+                            
+                         </tbody>
+
+                    </table>
+                   </td>
+
+
+
+
+                </form>
+            </td>
+        </tr>
+    </table>
+    
+
+    <script src="./cured.js"></script>
+</body>
+</html>
